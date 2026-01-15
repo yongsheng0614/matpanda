@@ -1,6 +1,6 @@
 # 🧪 1-Hour Data Analysis Quiz
 
-Welcome! In this lab, you’ll practice:
+Welcome! In this quiz, you’ll review:
 - Forking a GitHub repository
 - Using a provided Python function
 - Performing a simple data transformation
@@ -11,10 +11,10 @@ You have **60 minutes** to complete all tasks. Good luck!
 
 ---
 
-## 📁 Repository Files (Provided by Instructor)
+## 📁 Repository Files (Available together with this README)
 
 - `sales.csv` — A small dataset of product sales
-- `helpers.py` — A utility function to help with your analysis
+- `helpers.py` — Contains add_revenue function to help with your analysis
 
 > ❗ Do **not** modify these files. Create new files for your work.
 
@@ -30,7 +30,7 @@ You have **60 minutes** to complete all tasks. Good luck!
    - Saves the updated data as `sales_with_revenue.csv`
    - Creates a simple bar plot of `product` vs `revenue` and saves it as `revenue_plot.png`
 4. **Run your script** to generate the output files.
-5. **Commit and push** these three files to your fork **before the 1-hour deadline**:
+5. **Commit and push** these **three files** to your fork **before the 1-hour deadline**:
    - `run_analysis.py`
    - `sales_with_revenue.csv`
    - `revenue_plot.png`
@@ -40,6 +40,7 @@ You have **60 minutes** to complete all tasks. Good luck!
 ## 💡 Starter Code (Put this in `run_analysis.py`)
 
 ```python
+# You can modify this file if you want
 import pandas as pd
 import matplotlib.pyplot as plt
 from helpers import add_revenue
